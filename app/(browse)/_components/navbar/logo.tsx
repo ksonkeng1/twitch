@@ -22,7 +22,6 @@ export const Logo = () => {
                     height="32"
                     width="32"
                 />
-
                 </div>
                 <div className={cn(font.className)}>
                     <p className="text-lg font-semibold">
