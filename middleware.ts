@@ -1,7 +1,9 @@
 import { authMiddleware } from "@clerk/nextjs";
  
 export default authMiddleware({
-  publicRoutes: ["/api/webhooks(.*)"],
+  publicRoutes: [
+    "/",
+    "/api/webhooks(.*)"],
   // Routes that can always be accessed, and have
   // no authentication information
 });
